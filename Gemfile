@@ -55,3 +55,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "faraday" # http-client to API
+
+gem "dotenv", groups: [ :development, :test ]
